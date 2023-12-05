@@ -15,3 +15,5 @@ print("My name is Malav Patel \nand i am living in gujarat es-1") #escape sequen
 print("My name is Malav Patel \tand i am living in gujarat es-2") #escape sequence character-2 for a tab space 
 print("My name is Malav Patel  and i am living in gujarat es-3 //") #escape sequence character-3 for a literlal backslash in the o/p line
 print("This is a single quote : \' and this is a double quote: \" es-4") #escape sequence character-4 for single quote and double quote
+
+print("My name is \"Malav Patel\"") #escape sequence character
