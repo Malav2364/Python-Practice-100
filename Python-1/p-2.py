@@ -17,3 +17,6 @@ print("My name is Malav Patel  and i am living in gujarat es-3 //") #escape sequ
 print("This is a single quote : \' and this is a double quote: \" es-4") #escape sequence character-4 for single quote and double quote
 
 print("My name is \"Malav Patel\"") #escape sequence character
+print("Malav Patel", 2, 3, sep="~") # this is a seprator used to seprate things with a specifed character
+print("Hello World", end="007\n")# to print specified word at the end 
+print("Hello World")
