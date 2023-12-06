@@ -1,7 +1,7 @@
 a = int(input("Enter 1st number : "))
 b = int(input("Enter 2nd number : "))
 
-print("Addition : ", a+b)
+print("Addition of", a, "and", b, "is :", a+b)
 print("Subtraction : ", a-b)
 print("Multiplication : ", a*b)
 print("Divison : ", a/b)
