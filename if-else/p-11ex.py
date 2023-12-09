@@ -1,4 +1,4 @@
-import time 
+import time
 name = str(input("Enter your name :"))
 strtime = time.strftime("%H")
 stime = time.strftime("%I").lstrip("0")
