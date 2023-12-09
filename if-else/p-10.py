@@ -26,10 +26,34 @@
 appleprice = 10
 budget = 200
 
-if (budget - appleprice > 50):
-    print("Add to Cart")
-elif(budget - appleprice > 70):
-    print("Its okay you can buy")
+# if (budget - appleprice > 50):
+#     print("Add to Cart")
+# elif(budget - appleprice > 70):
+#     print("Its okay you can buy")
+# else:
+#     print("Don't add")
+
+num = int(input("Enter the number : "))
+#ladder if else
+# if (num < 0):
+#     print("Number is negetive")
+# elif(num == 0):
+#     print("Number is Zero")
+# elif(num == 2364):
+#     print("Number is Special")
+# else:
+#     print("Number is positive")
+
+if (num < 0):
+    print("Number is negetive !!")
+elif(num > 0):
+    if (num <=10):
+        print("Number is between 1-10")
+    elif(num > 10 and num <=20):
+        print("The number is bettween 11-20")
+    else:
+        print("Number is greater than 20")
 else:
-    print("Don't add")
+    print("Number is zero")
+
 
