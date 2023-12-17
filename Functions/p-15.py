@@ -18,6 +18,19 @@ def table(num):
     for i in range(1,11):
         print(num,"*",i,"=",num*i)
 
-table(79)
+# table(79)
 
+#practice of Functions
+
+# def function name (arg){
+#     code here
+# }
+
+def fname(dob):
+    if dob == 2004:
+        print("OK")
+    else:
+        print("Not OK")
+
+fname(2004)
 
