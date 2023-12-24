@@ -28,7 +28,7 @@ l.pop(0) #to delete an element in the list using the index of the element
 
 if  30 in l:
     print("Available !!")
-else:                   #to check elements present in the list or not 
+else:                  #to check elements present in the list or not 
     print("Nahi Hai!!")
 
 print(l[1:]) #print list from index 1 till last index
