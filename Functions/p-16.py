@@ -1,3 +1,4 @@
+
 def average(a = 25,b = 20):  #def args   #here in this case if we give arguments with value it will not consider if alredy called with the function
     print("The average is :", (a+b)/2)
 
@@ -22,7 +23,21 @@ def avg(*numbers): #* means data stored in tuple
 ms = (10,20,30,40,50)  #it's a tuple 
 # print(type(ms))
 
-def name(**name):   #dictionary if there are * * it contains classs and objects
-    print("Hello ,", name["fname"], name["mname"], name["lname"])
+# def name(**name):   #dictionary if there are * * it contains classs and objects
+#     print("Hello ,", name["fname"], name["mname"], name["lname"])
 
-name(fname = "Malav", mname = "Swapnil", lname = 'Patel')
+# name(fname = "Malav", mname = "Swapnil", lname = 'Patel')
+
+def calc(*numb):
+    sum = 0
+    for i in numb:
+        sum = sum + i
+    print("The Average of",numb,"is :",sum / len(numb))
+    if(sum / len(numb)):
+        print("Thala For a Reason !")
+calc(7,7,7)
+
+def greet(**nme):
+    print("Welcome Back,",nme["fname"], nme["mname"], nme["lname"])
+
+greet(fname = "Malav", mname = "Swapnil", lname = "Patel")
