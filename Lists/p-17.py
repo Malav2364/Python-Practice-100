@@ -31,6 +31,34 @@ if  30 in l:
 else:                  #to check elements present in the list or not 
     print("Nahi Hai!!")
 
-print(l[1:]) #print list from index 1 till last index
-print(l[1:4:3]) #jump index here the last number indicates the index we have to jump
+# print(l[1:]) #print list from index 1 till last index
+# print(l[1:4:3]) #jump index here the last number indicates the index we have to jump
+
+#list comprehension
+lst = [i for i in range(1,11)] #so here we used for loop in a list
+print(lst)
+
+sqlst = [x**2 for x in range(1,11)]
+print(sqlst) #using list comprehension in python
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = [] #take an empty list
+for x in fruits:
+    if "a" in x:       # here if there is a match in the word it will append that in the empty list created
+        newlist.append(x)
+# print(newlist)
+        
+slst = [2,4,6,8,7,9,3]
+d2 = []
+d3 = []
+print(type(slst))
+
+for i in slst:
+    if (i%3==0):
+        print(i,": Divisible by 3")
+    elif(i%2==0):
+        print(i,": Divisible by 2")
+    else:
+        print(i,": Not divisible by 2 and 3")
+        
 
