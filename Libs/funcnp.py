@@ -68,11 +68,19 @@ b = np.array([1, 2, 3, 4])
 td = np.array([[1,2,3], [4,5,6], [7,8,9], [10,11,12]])
 
 #determine the shape of the array
-print(td.shape)
+# print(td.shape)
 
 #determine the size of the array
-print(td.size)
+# print(td.size)
 
 #determine the dimension of array
-print(td.ndim)
+# print(td.ndim)
 
+#reshaping the array
+f = np.arange(6)
+g = f.reshape(2,3)     #columns and rows
+print(g)
+
+#reshaping part 2
+h = np.reshape(f, newshape=(2,3), order='C')
+print(h)
