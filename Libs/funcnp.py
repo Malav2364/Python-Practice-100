@@ -79,8 +79,16 @@ td = np.array([[1,2,3], [4,5,6], [7,8,9], [10,11,12]])
 #reshaping the array
 f = np.arange(6)
 g = f.reshape(2,3)     #columns and rows
-print(g)
+# print(g)
 
 #reshaping part 2
 h = np.reshape(f, newshape=(2,3), order='C')
-print(h)
+# print(h)
+
+#adding axis to arrays or converting of 1d array to 2d array 
+i = np.arange(6)
+j = i[np.newaxis,:]   #added a row in the array 
+print(j.shape)
+
+k = i[:, np.newaxis]
+print(k.shape)          #added a column in the array 
