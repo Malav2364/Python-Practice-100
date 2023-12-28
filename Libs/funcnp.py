@@ -92,3 +92,9 @@ print(j.shape)
 
 k = i[:, np.newaxis]
 print(k.shape)          #added a column in the array 
+
+# to add row or column at a particular axis 
+b = np.expand_dims(f, axis=0)  #add row
+print(b.shape)
+v = np.expand_dims(f, axis=1) #add column
+print(v.shape)
