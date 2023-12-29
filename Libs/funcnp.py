@@ -88,13 +88,30 @@ h = np.reshape(f, newshape=(2,3), order='C')
 #adding axis to arrays or converting of 1d array to 2d array 
 i = np.arange(6)
 j = i[np.newaxis,:]   #added a row in the array 
-print(j.shape)
+# print(j.shape)
 
 k = i[:, np.newaxis]
-print(k.shape)          #added a column in the array 
+# print(k.shape)          #added a column in the array 
 
 # to add row or column at a particular axis 
 b = np.expand_dims(f, axis=0)  #add row
-print(b.shape)
+# print(b.shape)
 v = np.expand_dims(f, axis=1) #add column
-print(v.shape)
+# print(v.shape)
+
+#indexing and slising 
+#just take an array 
+
+#indexing of the array same as in list or tuple
+#index finder 
+array1 = np.arange(1)
+# print(array1[1]) #this prints the index of the element present in array 
+for i in range(array1.size):
+    print(f"index of  [{array1[i]}] :",i)
+
+#other types of indexing in python 
+array2 = np.arange(5)
+print(array2[1:]) #from index 1 till last element 
+print(array2[:3]) #from staring till index 3 
+print(array2[-2:]) #means last 2 elements from the array 
+print(array2[1:4]) #for specific array indexing
