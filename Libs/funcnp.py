@@ -115,3 +115,5 @@ print(array2[1:]) #from index 1 till last element
 print(array2[:3]) #from staring till index 3 
 print(array2[-2:]) #means last 2 elements from the array 
 print(array2[1:4]) #for specific array indexing
+
+#let's dive into slicing of the arrays 
