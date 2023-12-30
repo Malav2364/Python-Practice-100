@@ -29,4 +29,19 @@ fip = (ar1 < 5) | (ar1 == 10) # so we stored it in a variable and got an outut a
 #using the non zero function
 b = np.array([[12,32,21],[56,65,89], [21,56,47]])
 c = np.nonzero(b < 40)
-print(c)
+# print(c)
+
+d = np.array([[12,13,34,], [34,24,26], [11,14,15]])
+e = (d >10) & (d < 16) #boolean results
+# f = d[() | ()]
+# print(e)
+# print(f)
+
+z = np.array([[12,13,34,], [34,24,26], [11,14,15]])
+#list of cordinates means prints index 0 and 1 of 0 and 1 arrays
+# loc = list (zip(z[0], z[1]))
+# for i in loc:
+    # print(i)
+
+
+
