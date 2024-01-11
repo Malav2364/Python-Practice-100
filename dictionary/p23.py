@@ -33,5 +33,17 @@ emp = {
 
 print(emp.items()) #returns the items in ley value pairs
 
-for key, value in emp.items():  #prints the key and value both 
-    print(key, value)
+# for key, value in emp.items():  #prints the key and value both 
+#     print(key, value)
+
+names = {
+    1 : "Malav",
+    2 : "Aarav",
+    3 : "Mayur",
+    4 : "Ayush",
+}
+print(names.items()) #to print the items in the dictionaries
+for key, value in names.items():
+    print(key, value)  #to print keys and values using for loop
+
+print(names[1]) #tto access element using index or keys
