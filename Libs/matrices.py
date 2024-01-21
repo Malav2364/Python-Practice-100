@@ -50,3 +50,21 @@ print(np.ones((4,3,2))) #this makes a 3d array with one values in it
 
 
 #lets generate random numbers in python using numpy library
+# print(np.ones(3))
+# print(np.zeros(3))
+
+print("Random Numbers From here !!")
+#random number generator
+r2D = np.random.default_rng() #simplest way to generate random numbers 
+print(r2D.random(5))
+
+r3d = np.random.default_rng(())
+print(r3d.random((3,2,4)))
+
+#now lets generate random arrays 
+rArrays = np.random.default_rng()
+#so here in this array first we pass the range and then the size of the array 
+print(rArrays.integers(1,11 , size=(2,4)))
+print(rArrays.bytes(10))
+
+
