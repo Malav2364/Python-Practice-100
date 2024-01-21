@@ -30,10 +30,23 @@ print(data.max(axis=1)) #prints the highest value in rows
 
 data1 = np.array([[1,2], [3,4]])
 data2 = np.array([[1,1], [1,1]])    #only add if they have same height means same rows and columns
-print(data1 + data2)
+# print(data1 + data2)
 
 #non same height will led to broadcasting for all rows and columns
 
 data3 = np.array([[1,2], [3,4], [5,6]])
 data4 = np.array([[1,1]])   #this will add 1,1 to all the rows is called broadcasting
-print(data3+data4)
+# print(data3+data4)
+
+print("From here it starts the new day of code")
+
+data5 = np.array([[2,3], [1,5], [2,8]])
+ones_row = np.array([[1,1]])
+# print(data5+ones_row)
+
+#in parenthesis is takes input for the dimensions of the array like 2-d or 3d etc
+print(np.zeros((2,2,2))) #this makes a 3d array with zero values in it 
+print(np.ones((4,3,2))) #this makes a 3d array with one values in it 
+
+
+#lets generate random numbers in python using numpy library
