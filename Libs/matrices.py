@@ -67,4 +67,9 @@ rArrays = np.random.default_rng()
 print(rArrays.integers(1,11 , size=(2,4)))
 print(rArrays.bytes(10))
 
+# print("Random arrays practice today :-)")
+rnd1 = np.random.default_rng()
+# print(rnd1.random((2,3)))
 
+#print random arrays 
+print(rnd1.integers(1,11, size=(2,4))) 
