@@ -33,6 +33,5 @@ uqGenAr = uAgen.integers(1,11, size=(4,4))
 print(uqGenAr)
 uqRows = np.unique(uqGenAr, axis=1)
 print(uqGenAr)
-
 #to get them all write them in a same syntax and task will be done 
 
