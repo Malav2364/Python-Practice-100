@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-a = np.arange(0.1, 4., 0.2)
+a = np.arange(0.1, 4, 0.2)
 # print(a)
 
 #plotting the points on the graph
