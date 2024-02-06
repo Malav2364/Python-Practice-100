@@ -14,6 +14,8 @@ plt.ylabel('Popularity', fontsize=15)
 plt.bar(p,y, width, color="orange", label='Popularity', align='edge') #width is used to give width to the bars in the  graph  and align for the alignment of the bars on the labels in x axis
 plt.grid(False)
 plt.minorticks_on()
+
+
 #multiple bar graphs in a single axes
 plt.bar(p1,z, width, color="yellow", label='Popularity2', align='edge')
 plt.legend()
